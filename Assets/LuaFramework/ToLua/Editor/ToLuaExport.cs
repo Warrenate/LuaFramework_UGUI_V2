@@ -161,7 +161,16 @@ public static class ToLuaExport
         "UIDrawCall.isActive",
         "Dictionary.TryAdd",
         "KeyValuePair.Deconstruct",
-        "ParticleSystem.SetJob"
+        "ParticleSystem.SetJob",
+        //Customize
+        "ParticleSystem.SetParticles",
+        "ParticleSystem.GetParticles",
+        "Light.SetLightDirty",
+        "MeshRenderer.scaleInLightmap",
+        "MeshRenderer.receiveGI",
+        "MeshRenderer.stitchLightmapSeams",
+        "MeshRenderer.scaleInLightmap",
+        "QualitySettings.streamingMipmapsRenderersPerFrame",
     };
 
     class _MethodBase
